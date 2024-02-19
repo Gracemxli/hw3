@@ -5,3 +5,6 @@
 //*********************************************
 
 
+void llpivot (Node*& head, Node*& smaller, Node*& larger, int pivot) {
+    
+}

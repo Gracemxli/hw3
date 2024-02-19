@@ -1,0 +1,73 @@
+Checking whether C++ compiler has '__int64' failed to compile with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4f3d0/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4f3d0.dir/build.make CMakeFiles/cmTC_4f3d0.dir/build
+Building CXX object CMakeFiles/cmTC_4f3d0.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS___INT64  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_4f3d0.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_4f3d0.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_4f3d0.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:24:1: error: unknown type name '__int64'
+__int64 f(__int64 n)
+^
+/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:24:11: error: unknown type name '__int64'
+__int64 f(__int64 n)
+          ^
+/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:30:3: error: unknown type name '__int64'
+  __int64 n = 0;
+  ^
+3 errors generated.
+make[1]: *** [CMakeFiles/cmTC_4f3d0.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_4f3d0/fast] Error 2
+
+
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_39b64/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_39b64.dir/build.make CMakeFiles/cmTC_39b64.dir/build
+Building CXX object CMakeFiles/cmTC_39b64.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_39b64.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_39b64.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_39b64.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:196:13: error: use of undeclared identifier 'environ'
+  char* e = environ[0];
+            ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_39b64.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_39b64/fast] Error 2
+
+
+
+Checking whether CXX compiler struct stat has st_mtim member failed to compile with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_95805/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_95805.dir/build.make CMakeFiles/cmTC_95805.dir/build
+Building CXX object CMakeFiles/cmTC_95805.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIM  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_95805.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_95805.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_95805.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:43:15: error: no member named 'st_mtim' in 'stat'
+  (void)stat1.st_mtim.tv_sec;
+        ~~~~~ ^
+/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:44:15: error: no member named 'st_mtim' in 'stat'
+  (void)stat1.st_mtim.tv_nsec;
+        ~~~~~ ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_95805.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_95805/fast] Error 2
+
+
+
+Checking whether <ext/stdio_filebuf.h> is available failed to compile with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_383d6/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_383d6.dir/build.make CMakeFiles/cmTC_383d6.dir/build
+Building CXX object CMakeFiles/cmTC_383d6.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_383d6.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_383d6.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_383d6.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:372:12: fatal error: 'ext/stdio_filebuf.h' file not found
+#  include <ext/stdio_filebuf.h>
+           ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_383d6.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_383d6/fast] Error 2
+
+
+

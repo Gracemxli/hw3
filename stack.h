@@ -9,14 +9,30 @@ template <typename T>
 class Stack 
 {
 public:
-    Stack();
-    ~Stack();
-    bool empty() const;
-    size_t size() const;
-    void push(const T& item);
-    void pop();  // throws std::underflow_error if empty
-    const T& top() const; // throws std::underflow_error if empty
+    Stack() {
+
+    }
+    ~Stack() {
+
+    }
+    bool empty() const {
+        return false;
+    }
+    size_t size() const {
+        return 0; 
+    }
+    void push(const T& item) {
+
+    }
+    void pop() {  // throws std::underflow_error if empty
+    }
+    const T& top() const { 
+        return v;
+        // throws std::underflow_error if empty
     // Add other members only if necessary
+    }
+private:
+    T v;
 };
 
 

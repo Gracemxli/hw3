@@ -15,20 +15,26 @@ public:
    *          as an argument and returns a bool if the first argument has
    *          priority over the second.
    */
-  Heap(int m=2, PComparator c = PComparator());
+  Heap(int m=2, PComparator c = PComparator()) {
+
+  }
 
   /**
   * @brief Destroy the Heap object
   * 
   */
-  ~Heap();
+  ~Heap(){
+
+  }
 
   /**
    * @brief Push an item to the heap
    * 
    * @param item item to heap
    */
-  void push(const T& item);
+  void push(const T& item){
+    
+  }
 
   /**
    * @brief Returns the top (priority) item
@@ -51,17 +57,21 @@ public:
    * @brief Returns true if the heap is empty
    * 
    */
-  bool empty() const;
+  bool empty() const{
+    return false;
+  }
 
     /**
    * @brief Returns size of the heap
    * 
    */
-  size_t size() const;
+  size_t size() const{
+    return 0;
+  }
 
 private:
   /// Add whatever helper functions and data members you need below
-
+  T v;
 
 
 
@@ -88,7 +98,7 @@ T const & Heap<T,PComparator>::top() const
   // Add code to return the top element
 
 
-
+  return v;
 }
 
 

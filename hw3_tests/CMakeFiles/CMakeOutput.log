@@ -1,0 +1,156 @@
+Checking whether header cstdio is available compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99d34/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_99d34.dir/build.make CMakeFiles/cmTC_99d34.dir/build
+Building CXX object CMakeFiles/cmTC_99d34.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_CSTDIO  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_99d34.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_99d34.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_99d34.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_99d34
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99d34.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_99d34.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_99d34 
+
+
+
+Checking for Large File Support compiled and ran with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fd726/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fd726.dir/build.make CMakeFiles/cmTC_fd726.dir/build
+Building CXX object CMakeFiles/cmTC_fd726.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DKWSYS_CXX_HAS_CSTDIO=1 -DTEST_KWSYS_LFS_WORKS  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_fd726.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_fd726.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_fd726.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_fd726
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd726.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fd726.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_fd726 
+
+
+
+Checking whether C++ compiler has 'long long' compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7f83a/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7f83a.dir/build.make CMakeFiles/cmTC_7f83a.dir/build
+Building CXX object CMakeFiles/cmTC_7f83a.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_LONG_LONG  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_7f83a.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_7f83a.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_7f83a.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_7f83a
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f83a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7f83a.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_7f83a 
+
+
+
+Checking whether wstring is available compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6031b/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6031b.dir/build.make CMakeFiles/cmTC_6031b.dir/build
+Building CXX object CMakeFiles/cmTC_6031b.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_STL_HAS_WSTRING  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_6031b.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_6031b.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_6031b.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_6031b
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6031b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6031b.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_6031b 
+
+
+
+Checking whether C compiler has ptrdiff_t in stddef.h compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_90ba9/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_90ba9.dir/build.make CMakeFiles/cmTC_90ba9.dir/build
+Building C object CMakeFiles/cmTC_90ba9.dir/kwsysPlatformTestsC.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DTEST_KWSYS_C_HAS_PTRDIFF_T  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_90ba9.dir/kwsysPlatformTestsC.c.o -MF CMakeFiles/cmTC_90ba9.dir/kwsysPlatformTestsC.c.o.d -o CMakeFiles/cmTC_90ba9.dir/kwsysPlatformTestsC.c.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsC.c
+Linking C executable cmTC_90ba9
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90ba9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_90ba9.dir/kwsysPlatformTestsC.c.o -o cmTC_90ba9 
+
+
+
+Checking whether C compiler has ssize_t in unistd.h compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cd494/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cd494.dir/build.make CMakeFiles/cmTC_cd494.dir/build
+Building C object CMakeFiles/cmTC_cd494.dir/kwsysPlatformTestsC.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DTEST_KWSYS_C_HAS_SSIZE_T  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_cd494.dir/kwsysPlatformTestsC.c.o -MF CMakeFiles/cmTC_cd494.dir/kwsysPlatformTestsC.c.o.d -o CMakeFiles/cmTC_cd494.dir/kwsysPlatformTestsC.c.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsC.c
+Linking C executable cmTC_cd494
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd494.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cd494.dir/kwsysPlatformTestsC.c.o -o cmTC_cd494 
+
+
+
+Checking whether C compiler has clock_gettime compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_08786/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_08786.dir/build.make CMakeFiles/cmTC_08786.dir/build
+Building C object CMakeFiles/cmTC_08786.dir/kwsysPlatformTestsC.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DTEST_KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_08786.dir/kwsysPlatformTestsC.c.o -MF CMakeFiles/cmTC_08786.dir/kwsysPlatformTestsC.c.o.d -o CMakeFiles/cmTC_08786.dir/kwsysPlatformTestsC.c.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsC.c
+Linking C executable cmTC_08786
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08786.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_08786.dir/kwsysPlatformTestsC.c.o -o cmTC_08786 
+
+
+
+Checking whether CXX compiler has setenv compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b793b/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b793b.dir/build.make CMakeFiles/cmTC_b793b.dir/build
+Building CXX object CMakeFiles/cmTC_b793b.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_SETENV  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_b793b.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_b793b.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_b793b.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_b793b
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b793b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b793b.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_b793b 
+
+
+
+Checking whether CXX compiler has unsetenv compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3bcaf/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3bcaf.dir/build.make CMakeFiles/cmTC_3bcaf.dir/build
+Building CXX object CMakeFiles/cmTC_3bcaf.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UNSETENV  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_3bcaf.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_3bcaf.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_3bcaf.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_3bcaf
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bcaf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3bcaf.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_3bcaf 
+
+
+
+Checking whether CXX compiler has utimes compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2e761/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2e761.dir/build.make CMakeFiles/cmTC_2e761.dir/build
+Building CXX object CMakeFiles/cmTC_2e761.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UTIMES  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_2e761.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_2e761.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_2e761.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_2e761
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e761.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2e761.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_2e761 
+
+
+
+Checking whether CXX compiler has utimensat compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_335e8/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_335e8.dir/build.make CMakeFiles/cmTC_335e8.dir/build
+Building CXX object CMakeFiles/cmTC_335e8.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UTIMENSAT  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_335e8.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_335e8.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_335e8.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_335e8
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_335e8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_335e8.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_335e8 
+
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member compiled with the following output:
+Change Dir: '/Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9e77b/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9e77b.dir/build.make CMakeFiles/cmTC_9e77b.dir/build
+Building CXX object CMakeFiles/cmTC_9e77b.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_9e77b.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_9e77b.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_9e77b.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/graceli/Documents/GitHub/hw3/hw3_tests/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_9e77b
+/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e77b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9e77b.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_9e77b 
+
+
+
