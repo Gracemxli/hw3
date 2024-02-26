@@ -7,7 +7,8 @@
       "request": "launch",
       "args": [],
       "cwd": "/Users/graceli/Documents/GitHub/hw3",
-      "program": "/Users/graceli/Documents/GitHub/hw3/hw3_tests/llrec_tests/llrec_tests"
+      "program": "/Users/graceli/Documents/GitHub/hw3/hw3_tests/llrec_tests/llrec_tests",
+      "env": {"GTEST_BREAK_ON_FAILURE":"1"}
     }
   ]
 }
