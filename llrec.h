@@ -90,9 +90,8 @@ if (head == nullptr){
     Node* temp = llfilter(head->next, pred);
 
     if(pred(head->val)){
-        Node* temp = head;
-        head = head->next;
-        delete temp; 
+        
+        delete head; 
         return temp; 
     }
     head->next = temp;
