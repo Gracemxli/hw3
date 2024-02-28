@@ -90,7 +90,6 @@ if (head == nullptr){
     Node* temp = llfilter(head->next, pred);
 
     if(pred(head->val)){
-        
         delete head; 
         return temp; 
     }

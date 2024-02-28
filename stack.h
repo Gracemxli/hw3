@@ -6,28 +6,37 @@
 
 // Use inheritance from std::vector (choose public/private) as appropriate
 template <typename T>
-class Stack 
+class Stack : private std::vector<T> 
 {
 public:
-    Stack() {
 
+    Stack() {
+        
     }
     ~Stack() {
 
     }
     bool empty() const {
-        return false;
+        return std::vector<T>::empty();
     }
     size_t size() const {
-        return 0; 
+        return std::vector<T>::size();
     }
     void push(const T& item) {
-
+        std::vector<T>::push_back(item);
     }
     void pop() {  // throws std::underflow_error if empty
+        if(empty()){
+        throw std::underflow_error("error");
+        }
+        std::vector<T>::pop_back();
+
     }
     const T& top() const { 
-        return v;
+        if(empty()){
+        throw std::underflow_error("error");
+        }
+        return std::vector<T>::back();        
         // throws std::underflow_error if empty
     // Add other members only if necessary
     }

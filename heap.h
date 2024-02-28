@@ -4,7 +4,7 @@
 #include <stdexcept>
 
 template <typename T, typename PComparator = std::less<T> >
-class Heap
+class Heap : private std::vector<T>
 {
 public:
   /**
@@ -33,6 +33,22 @@ public:
    * @param item item to heap
    */
   void push(const T& item){
+
+    std::vector<T>::push_back(item);
+    size_t i = std::vector<T>::size()-1;
+    while(i!=0){
+      size_t parent = (i-1)/2;
+
+      T& current = std::vector<T>::at(i);
+      T& above = std::vector<T>::at(parent);
+
+    PComparator comp; 
+    if(comp(current,above)){
+      break;
+    }
+    std::swap<T>(current,parent);
+      i = parent;
+    }
     
   }
 
@@ -91,14 +107,14 @@ T const & Heap<T,PComparator>::top() const
     // ================================
     // throw the appropriate exception
     // ================================
-
+    throw std::underflow_error("bad heap");
 
   }
   // If we get here we know the heap has at least 1 item
   // Add code to return the top element
 
+  return std::vector<T>::at(0);
 
-  return v;
 }
 
 
@@ -111,9 +127,11 @@ void Heap<T,PComparator>::pop()
     // ================================
     // throw the appropriate exception
     // ================================
+    throw std::underflow_error("bad heap");
 
 
   }
+  
 
 
 
