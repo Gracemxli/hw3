@@ -6,6 +6,13 @@
 #include "event.h"
 #include "gate.h"
 
+struct TimeComparator{
+	bool operator()(Event* a, Event* b){
+		return	(a->time< b->time); 
+	}
+
+};
+
 class Circuit 
 {
 	public:
@@ -23,7 +30,8 @@ class Circuit
     std::vector<Gate*> m_gates;
     std::vector<Wire*> m_wires;
 		// we need to add the m_pq data member. It should be a min-heap of Event*;
-        
+    Heap<Event*,TimeComparator> m_pq;
+
 };
 
 #endif
