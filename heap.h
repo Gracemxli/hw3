@@ -2,6 +2,7 @@
 #define HEAP_H
 #include <functional>
 #include <stdexcept>
+#include <algorithm>
 
 template <typename T, typename PComparator = std::less<T> >
 class Heap : private std::vector<T>
@@ -43,10 +44,10 @@ public:
       T& above = std::vector<T>::at(parent);
 
     PComparator comp; 
-    if(comp(current,above)){
+    if(comp(above,current)){
       break;
     }
-    std::swap<T>(current,parent);
+    std::swap<T>(current,above);
       i = parent;
     }
     
@@ -74,7 +75,7 @@ public:
    * 
    */
   bool empty() const{
-    return false;
+    return std::vector<T>::empty();
   }
 
     /**
@@ -82,19 +83,32 @@ public:
    * 
    */
   size_t size() const{
-    return 0;
+    return std::vector<T>::size();
   }
 
 private:
   /// Add whatever helper functions and data members you need below
-  T v;
-
-
-
+  void heapify(size_t i){
+    size_t left =  2*i +1;
+    size_t right = 2*i + 2;
+    size_t largest =  i; 
+    
+    PComparator comp; 
+    if (left < size() && comp(std::vector<T>::at(left), std::vector<T>::at(largest))){
+      largest= left;
+    }
+    if (right < size() && comp(std::vector<T>::at(right), std::vector<T>::at(largest))){
+      largest= right;
+    }
+    if(largest!= i){
+      std::swap(std::vector<T>::at(i), std::vector<T>::at(largest));
+      heapify(largest);
+    }
+  }
 };
 
 // Add implementation of member functions here
-
+ 
 
 // We will start top() for you to handle the case of 
 // calling top on an empty heap
@@ -127,15 +141,16 @@ void Heap<T,PComparator>::pop()
     // ================================
     // throw the appropriate exception
     // ================================
-    throw std::underflow_error("bad heap");
-
-
+    throw std::underflow_error("bad pop");
   }
-  
+  std::swap<T>(std::vector<T>::at(0), std::vector<T>::at(size()-1));
+  std::vector<T>::pop_back();
 
-
+  heapify(0);
 
 }
+
+
 
 
 

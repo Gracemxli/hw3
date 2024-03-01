@@ -7,7 +7,7 @@
       "request": "launch",
       "args": [],
       "cwd": "/Users/graceli/Documents/GitHub/hw3",
-      "program": "/Users/graceli/Documents/GitHub/hw3/hw3_tests/stack_tests/stack_tests",
+      "program": "/Users/graceli/Documents/GitHub/hw3/hw3_tests/heap_tests/heap_tests",
       "env": {"GTEST_BREAK_ON_FAILURE":"1"}
     }
   ]
